@@ -18,7 +18,34 @@
 # print(type (name))
 # print(dir(age))
 
+# x = 10
+#
+# print(x)
+# List: []
+# users = ["Sophia", 20, "Kathmandu"]
+# print(users[1])
 
-x = 10
+# users = [
+#     [
+#         ["Sophia", 20, "Kathmandu"],
+#         ["Ram", 22, "Pokhara"],
+#         ["Hair", 20, "Kirtipur", ['Gita']]
+#     ]
+# ]
+#
+# print(users[0][2][3][0])
+#
+# data = [1, 2]
+# print(type(data))
+# print(dir(data))
 
-print(x)
+# data[0] = "sita"
+# print(data)
+
+users = ["Sophia", 20, "Kathmandu"]
+# name = users[0]
+# age = users[1]
+# address = users[2]
+# print(f"Name:{name} ")
+# print(name, age, address)
+print(f"Name:{users[0]} Age:{users[1]} Address:{users[2]}")
