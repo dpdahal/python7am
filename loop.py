@@ -52,14 +52,4 @@ nested loop
 # print(len(total_num))
 
 
-num_of_students = int(input("Enter number of students: "))
-x = 1
 
-marks=[[],[]]
-
-while x <= num_of_students:
-    print(f"========Students: {x}===========")
-    for a in range(1):
-        nep = int(input("Enter nepali mark: "))
-        eng = int(input("Enter english mark: "))
-    x += 1
