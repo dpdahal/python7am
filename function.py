@@ -134,14 +134,47 @@ Types of function in python:
 #
 # myrep('ram',50)
 
+#
+# def dell():
+#     pass
+#
+# def mac():
+#     pass
+#
+# def toshiba():
+#     pass
+#
 
-def dell():
-    pass
 
-def mac():
-    pass
+# def user():
+#     def name(new_name):
+#         return f"My name is {new_name}"
+#
+#     return name
+#
+#
+# obj = user()
+# print(obj('sophia'))
 
-def toshiba():
-    pass
+
+#  function recrusion
+
+# def factorial(num):
+#     if num == 1:
+#         return 1
+#     else:
+#         return num * factorial(num - 1)
+#
+#
+# print(factorial(5))
 
 
+def factorial(num):
+    if num == 1:
+        return 1
+    else:
+        return num * factorial(num - 1)
+
+
+num = int(input("Enter any number"))
+print(factorial(num))
