@@ -5,4 +5,6 @@
 
 # print(__name__)
 
-import user
+# import user
+
+print("Hello world")
